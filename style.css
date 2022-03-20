@@ -107,6 +107,14 @@ blockquote {
   border-bottom: #2f1a1b 3px solid;
 }
 
+.col-sm-12 h1 {
+  margin: 0 0 40px 0;
+}
+
+.col-sm-12 p, .col-sm-12 h1 {
+  color: #2f1a1b;
+}
+
 @media (max-width: 425px) {
 
   .container .col-sm-6 {
@@ -116,15 +124,6 @@ blockquote {
   .container .tight-width-whitespace {
     margin: 0;
   }
-
-  .col-sm-12 h1 {
-    margin: 0 0 40px 0;
-  }
-
-  .col-sm-12 p, .col-sm-12 h1 {
-    color: #2f1a1b;
-  }
-
 }
 
 /*-------------------------*/
