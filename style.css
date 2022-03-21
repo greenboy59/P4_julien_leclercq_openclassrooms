@@ -713,6 +713,7 @@ a[data-lightbox]:focus-visible img {
 #lightbox-modal {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 #lightbox-modal .modal-dialog {
@@ -724,6 +725,7 @@ a[data-lightbox]:focus-visible img {
 #lightbox-modal .modal-dialog img {
   max-height: 90vh;
   margin: 0 auto;
+  object-fit: scale-down;
 }
 
 .lightbox-caption {
