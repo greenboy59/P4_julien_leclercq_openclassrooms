@@ -31,7 +31,7 @@ a:focus-visible {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+  background: #FFFFFF url("img/Spinner-1s-200px.gif") no-repeat center center;
 }
 
 .bloc {
@@ -73,8 +73,16 @@ a:focus-visible {
   padding-top: 10%;
 }
 
-#bloc-6 p {
+#bloc-6 p,
+#bloc-6 h1 {
   font-weight: 600;
+  color: #2f1a1b;
+}
+
+#bloc-6 em {
+  color: #ecc17d;
+  font-family: 'Archivo', sans-serif;
+  font-size: 5rem;
 }
 
 #bloc-5-cta h2 {
@@ -120,6 +128,24 @@ blockquote {
 
 .col-sm-12 p, .col-sm-12 h1 {
   color: #2f1a1b;
+}
+
+.google-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.google-map a {
+  color: #2f1a1b;
+  font-weight: 600;
+}
+
+.google-map a:hover,
+.google-map a:focus-visible {
+  color: #ecc17d;
 }
 
 @media (max-width: 425px) {
