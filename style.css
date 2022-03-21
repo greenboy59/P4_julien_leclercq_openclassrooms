@@ -19,7 +19,8 @@ button {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus-visible {
   text-decoration: none;
   cursor: pointer;
 }
@@ -72,8 +73,8 @@ a:hover {
   padding-top: 10%;
 }
 
-#bloc-5-cta {
-  padding: 0 10px;
+#bloc-6 p {
+  font-weight: 600;
 }
 
 #bloc-5-cta h2 {
@@ -103,8 +104,14 @@ blockquote {
   color: #2f1a1b;
 }
 
-.fa:hover {
+.social .fa:hover,
+.social:focus-visible,
+.scrollToTop:focus-visible,
+.scrollToTop:hover {
   border-bottom: #2f1a1b 3px solid;
+  filter: brightness(350%);
+  transform: scale(1.2);
+  transition: transform .4s ease-out;
 }
 
 .col-sm-12 h1 {
@@ -191,7 +198,8 @@ blockquote {
   color: rgba(255, 255, 255, .7);
 }
 
-.d-bloc button:hover {
+.d-bloc button:hover
+.d-bloc button:focus-visible {
   color: rgba(255, 255, 255, .9);
 }
 
@@ -225,19 +233,33 @@ blockquote {
 }
 
 .d-bloc .a-btn:hover,
+.d-bloc .a-btn:focus-visible,
 .d-bloc .navbar a:hover,
+.d-bloc .navbar a:focus-visible,
 .d-bloc .navbar-brand:hover,
+.d-bloc .navbar-brand:focus-visible,
 .d-bloc a:hover .icon-sm,
+.d-bloc a:focus-visible .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus-visible .icon-md,
 .d-bloc a:hover .icon-lg,
+.d-bloc a:focus-visible .icon-lg,
 .d-bloc a:hover .icon-xl,
+.d-bloc a:focus-visible .icon-xl,
 .d-bloc h1 a:hover,
+.d-bloc h1 a:focus-visible,
 .d-bloc h2 a:hover,
+.d-bloc h2 a:focus-visible,
 .d-bloc h3 a:hover,
+.d-bloc h3 a:focus-visible,
 .d-bloc h4 a:hover,
+.d-bloc h4 a:focus-visible,
 .d-bloc h5 a:hover,
+.d-bloc h5 a:focus-visible,
 .d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc h6 a:focus-visible,
+.d-bloc p a:hover,
+.d-bloc p a:focus-visible {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -246,7 +268,8 @@ blockquote {
 }
 
 .d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
+.d-bloc .btn-wire:hover,
+.d-bloc .btn-wire:focus-visible {
   color: rgba(255, 255, 255, 1);
   border-color: rgba(255, 255, 255, 1);
 }
@@ -255,7 +278,8 @@ blockquote {
   color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {
+.d-bloc .panel button:hover,
+.d-bloc .panel button:focus-visible {
   color: rgba(0, 0, 0, .7);
 }
 
@@ -271,12 +295,12 @@ blockquote {
   color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .a-btn:hover {
+.d-bloc .panel .a-btn:hover, .d-bloc .panel .a-btn:focus-visible {
   color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
+.d-bloc .panel .btn-wire:hover, .d-bloc .panel .btn-wire:focus-visible {
   color: rgba(0, 0, 0, .7);
   border-color: rgba(0, 0, 0, .3);
 }
@@ -287,7 +311,9 @@ blockquote {
 }
 
 .d-bloc .panel button:hover,
-.l-bloc button:hover {
+.d-bloc .panel button:focus-visible,
+.l-bloc button:hover,
+.l-bloc button:focus-visible {
   color: rgba(0, 0, 0, .7);
 }
 
@@ -323,20 +349,35 @@ blockquote {
 }
 
 .d-bloc .panel .a-btn:hover,
+.d-bloc .panel .a-btn:focus-visible,
 .l-bloc .a-btn:hover,
+.l-bloc .a-btn:focus-visible,
 .l-bloc .navbar a:hover,
+.l-bloc .navbar a:focus-visible,
 .l-bloc .navbar-brand:hover,
+.l-bloc .navbar-brand:focus-visible,
 .l-bloc a:hover .icon-sm,
+.l-bloc a:focus-visible .icon-sm,
 .l-bloc a:hover .icon-md,
+.l-bloc a:focus-visible .icon-md,
 .l-bloc a:hover .icon-lg,
+.l-bloc a:focus-visible .icon-lg,
 .l-bloc a:hover .icon-xl,
+.l-bloc a:focus-visible .icon-xl,
 .l-bloc h1 a:hover,
+.l-bloc h1 a:focus-visible,
 .l-bloc h2 a:hover,
+.l-bloc h2 a:focus-visible,
 .l-bloc h3 a:hover,
+.l-bloc h3 a:focus-visible,
 .l-bloc h4 a:hover,
+.l-bloc h4 a:focus-visible,
 .l-bloc h5 a:hover,
+.l-bloc h5 a:focus-visible,
 .l-bloc h6 a:hover,
-.l-bloc p a:hover {
+.l-bloc h6 a:focus-visible,
+.l-bloc p a:hover
+.l-bloc p a:focus-visible {
   color: rgba(0, 0, 0, 1);
 }
 
@@ -346,8 +387,10 @@ blockquote {
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
+.d-bloc .panel .btn-wire:focus-visible,
 .l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
+.l-bloc .btn-wire:hover,
+.l-bloc .btn-wire:focus-visible {
   color: rgba(0, 0, 0, .7);
   border-color: rgba(0, 0, 0, .3);
 }
@@ -419,14 +462,16 @@ blockquote {
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
 }
+
 .nav > li a {
   border-bottom: transparent solid 3px;
   padding-top: 30px;
   margin-top: -30px;
   transition: .4s all ease;
 }
+
 .nav > li a:hover,
-.nav > li a:focus { 
+.nav > li a:focus-visible {
   background: transparent;
   border-bottom: #ecc17d solid 3px;
 }
@@ -436,7 +481,8 @@ blockquote {
   border: 0px;
 }
 
-.navbar-toggle:hover {
+.navbar-toggle:hover,
+.navbar-toggle:focus-visible {
   background: transparent !important;
 }
 
@@ -466,7 +512,8 @@ blockquote {
   }
 
   .nav > li .dropdown-menu a,
-  .nav > li .dropdown-menu a:hover {
+  .nav > li .dropdown-menu a:hover,
+  .nav > li .dropdown-menu a:focus-visible {
     color: #484848;
   }
 
@@ -556,7 +603,7 @@ nav .caret {
 
 .btn-d,
 .btn-d:hover,
-.btn-d:focus {
+.btn-d:focus-visible {
   color: #FFF;
   background: rgba(0, 0, 0, .3);
 }
@@ -637,7 +684,8 @@ a[data-lightbox] {
   text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before,
+a[data-lightbox]:focus-visible::before {
   content: "+";
   font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 32px;
@@ -655,7 +703,8 @@ a[data-lightbox]:hover::before {
   -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover img,
+a[data-lightbox]:focus-visible img {
   opacity: 0.6;
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
@@ -702,8 +751,11 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox:hover,
+.close-lightbox:focus-visible,
 .next-lightbox:hover,
-.prev-lightbox:hover {
+.next-lightbox:focus-visible,
+.prev-lightbox:hover,
+.prev-lightbox:focus-visible {
   opacity: 1.0;
   color: #FFF;
 }
@@ -778,7 +830,7 @@ a {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -885,9 +937,11 @@ h4 {
 .btn-atomic-tangerine {
   background: #ECC17D;
   color: #2F1A1B !important;
+  position: relative;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus-visible {
   background: #2F1A1B !important;
   color: #ECC17D !important;
 }
@@ -896,7 +950,8 @@ h4 {
   color: #FFFFFF !important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover,
+.ltc-white:focus-visible {
   color: #cccccc !important;
 }
 
@@ -904,7 +959,8 @@ h4 {
   color: #ECC17D !important;
 }
 
-.ltc-atomic-tangerine:hover {
+.ltc-atomic-tangerine:hover,
+.ltc-atomic-tangerine:focus-visible {
   color: #c27956 !important;
 }
 
@@ -954,13 +1010,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -981,11 +1037,6 @@ h4 {
     position: relative;
   }
 
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
-
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -995,8 +1046,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -1049,7 +1098,8 @@ h4 {
     width: 100%;
   }
 
-  .nav > li:hover {
+  .nav > li:hover,
+  .nav > li:focus-visible {
     background: rgba(0, 0, 0, .08);
   }
 
