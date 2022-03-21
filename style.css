@@ -135,17 +135,11 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
-.google-map a {
-  color: #2f1a1b;
-  font-weight: 600;
-}
-
-.google-map a:hover,
-.google-map a:focus-visible {
-  color: #ecc17d;
+.google-map button {
+  width: auto;
 }
 
 @media (max-width: 425px) {
@@ -162,7 +156,7 @@ blockquote {
 /*-------------------------*/
 
 .bloc-lg {
-  padding: 100px 50px;
+  padding: 50px;
 }
 
 .bloc-md {
