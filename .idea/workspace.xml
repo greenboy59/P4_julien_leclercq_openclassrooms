@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef5ccb1c-ce83-4812-b686-b72218585d17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/divers-objets-audio-visuel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/divers-objets-audio-visuel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/personne-tape-au-clavier-sur-pc-portable.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/personne-tape-au-clavier-sur-pc-portable.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
       <workItem from="1647364887504" duration="764000" />
       <workItem from="1647424145289" duration="41954000" />
       <workItem from="1647691228248" duration="3930000" />
-      <workItem from="1647784588084" duration="37422000" />
+      <workItem from="1647784588084" duration="37649000" />
     </task>
     <servers />
   </component>
