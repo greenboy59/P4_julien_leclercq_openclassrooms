@@ -53,6 +53,19 @@ a:focus-visible {
 
 /* Ajouts suite à audit SEO */
 
+#bloc-4-portfolio img {
+  width: 100%;
+}
+
+.lightbox-caption {
+  font-size: 1rem;
+}
+
+.form-group {
+  font-size: 2rem;
+  color: black;
+}
+
 #bloc-8 .col-sm-4 {
   display: flex;
   justify-content: center;
@@ -79,8 +92,12 @@ a:focus-visible {
   color: #2f1a1b;
 }
 
+#bloc-6 p {
+  font-size: 1.7rem;
+}
+
 #bloc-6 em {
-  color: #ecc17d;
+  color: whitesmoke;
   font-family: 'Archivo', sans-serif;
   font-size: 5rem;
 }
@@ -101,6 +118,11 @@ blockquote {
   color: #434343;
   font-style: italic;
   border: none;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  color: #2f1a1b;
 }
 
 #info {
@@ -138,7 +160,7 @@ blockquote {
   gap: 20px;
 }
 
-.google-map button {
+.google-map a {
   width: auto;
 }
 
@@ -852,7 +874,7 @@ a {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .tight-width-whitespace {
